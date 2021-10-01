@@ -2,7 +2,7 @@
 
 ## Branches
 - master: Only NestJS
-- typeorm+postgres: NestJS + PostgreSQL + TypeORM
+- **typeorm+postgres: NestJS + PostgreSQL + TypeORM**
 - mongoose+mongo: NestJS + MongoDB + Mongoose
 
 ## Features
@@ -13,6 +13,8 @@
 * Precommit prettier
 * VSCode debug launcher
 * Strict ruled tsconfig.json
+* Migrations
+* Docker compose with postgres
 
 ## Installation
 
