@@ -1,9 +1,9 @@
 # NestJS boilerplate application
 
 ## Branches
-- master: Only NestJS
-- **typeorm+postgres: NestJS + PostgreSQL + TypeORM**
-- mongoose+mongo: NestJS + MongoDB + Mongoose
+- [master](https://github.com/i-link-pro-team/nestjs-boilerplate/tree/master): Only NestJS
+- **[typeorm+postgres](https://github.com/i-link-pro-team/nestjs-boilerplate/tree/typeorm+postgres): NestJS + PostgreSQL + TypeORM**
+- [mongoose+mongo](https://github.com/i-link-pro-team/nestjs-boilerplate/tree/mongoose+mongo): NestJS + MongoDB + Mongoose
 
 ## Features
 * Node v14.17.1
