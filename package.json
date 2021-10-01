@@ -39,17 +39,19 @@
     }
   },
   "dependencies": {
-    "@nestjs/common": "^7.6.18",
-    "@nestjs/config": "^0.6.3",
-    "@nestjs/core": "^7.6.18",
-    "@nestjs/graphql": "^7.10.6",
-    "@nestjs/platform-express": "^7.6.18",
-    "apollo-server-express": "^2.25.1",
+    "@nestjs/common": "^7.0.0",
+    "@nestjs/config": "^0.5.0",
+    "@nestjs/core": "^7.0.0",
+    "@nestjs/graphql": "^7.11.0",
+    "@nestjs/mongoose": "^7.0.2",
+    "@nestjs/platform-express": "^7.0.0",
+    "apollo-server-express": "^2.23.0",
     "graphql": "^15.6.0",
-    "graphql-tools": "^7.0.5",
+    "graphql-tools": "^6.0.18",
+    "mongoose": "^5.12.14",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^7.1.0"
+    "rxjs": "^6.5.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
