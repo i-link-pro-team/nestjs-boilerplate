@@ -26,7 +26,11 @@ export const typeOrmConfig: TypeOrmModuleAsyncOptions = {
             port: configService.get('PSQL_PORT') || DEFAULT_PSQL_PORT,
             username: configService.get('PSQL_USERNAME'),
             password: configService.get('PSQL_PASSWORD'),
-            synchronize: false,
+            dropSchema:
+                configService.get('NODE_ENV') === 'development-no-migration' &&
+                configService.get('DROP_DATABASE') === 1,
+            synchronize:
+                configService.get('NODE_ENV') === 'development-no-migration',
         }
     },
     inject: [ConfigService],
